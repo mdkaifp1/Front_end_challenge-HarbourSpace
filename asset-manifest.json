@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Front_end_challenge-HarbourSpace/static/css/main.921d6b59.css",
+    "main.js": "/Front_end_challenge-HarbourSpace/static/js/main.938fc955.js",
+    "static/media/About.png": "/Front_end_challenge-HarbourSpace/static/media/About.f0a43b34e77daf25bbfe.png",
+    "static/media/profile1R.png": "/Front_end_challenge-HarbourSpace/static/media/profile1R.897df91faf5025740600.png",
+    "static/media/Image.png": "/Front_end_challenge-HarbourSpace/static/media/Image.6e678f6c622ac7c0dd70.png",
+    "static/media/Background-1.png": "/Front_end_challenge-HarbourSpace/static/media/Background-1.f0e90db94389a6a649cb.png",
+    "static/media/Pattern.png": "/Front_end_challenge-HarbourSpace/static/media/Pattern.09ab335498b39a64307f.png",
+    "static/media/Background.png": "/Front_end_challenge-HarbourSpace/static/media/Background.0bef93f701d0cc2c6e73.png",
+    "index.html": "/Front_end_challenge-HarbourSpace/index.html",
+    "main.921d6b59.css.map": "/Front_end_challenge-HarbourSpace/static/css/main.921d6b59.css.map",
+    "main.938fc955.js.map": "/Front_end_challenge-HarbourSpace/static/js/main.938fc955.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.921d6b59.css",
+    "static/js/main.938fc955.js"
+  ]
+}
