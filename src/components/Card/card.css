@@ -1,0 +1,117 @@
+.app__card {
+  height: 459.9170837402344px;
+  width: 800px;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  padding: 3rem;
+  position: relative;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profiles__L {
+  display: flex;
+  align-items: center;
+}
+
+.profile__name {
+  margin-left: 20px;
+}
+
+.profiles__L img {
+  width: 80px;
+  height: 78.62px;
+  border-radius: 50%;
+}
+
+.profiles__R img {
+  width: 30px;
+  height: 29.48px;
+}
+
+.content {
+  padding: 2.5rem;
+}
+
+.cont__desc {
+  font-family: var(--font-base);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.185714px;
+  color: #6a6a6a;
+
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__card {
+    width: 535px;
+    height: 456px;
+
+    background: #fbfbfb;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+  }
+
+  .cont__desc {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.155714px;
+
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__card {
+    width: 535px;
+    height: 456px;
+
+    background: #fbfbfb;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+  }
+
+  .cont__desc {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.155714px;
+
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app__card {
+    width: 475px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__card {
+    width: 410;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__card {
+    width: 320px;
+  }
+  .content {
+    padding: 1rem;
+  }
+  .app__card {
+    padding: 1.5rem;
+  }
+}

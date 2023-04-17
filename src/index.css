@@ -1,0 +1,22 @@
+@import url("https://fonts.cdnfonts.com/css/apercu-pro");
+
+:root {
+  --font-base: "Apercu Pro", sans-serif;
+
+  --primary-color: #685dc5;
+  --color-white: #fff;
+  --color-accent: #5acf81;
+  --color-black: #000;
+  --color-font: #535353;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}

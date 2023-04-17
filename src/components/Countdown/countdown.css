@@ -1,0 +1,57 @@
+.app__timer-component {
+  display: flex;
+}
+
+.app__timer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.app__timer p:first-child {
+  padding-right: 10px;
+}
+
+.app__timer p:last-child {
+  padding-left: 10px;
+}
+
+.timer__p {
+  font-family: var(--font-base);
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 24px;
+  letter-spacing: -0.27px;
+  color: var(--color-font);
+}
+
+@media screen and (max-width: 1150px) {
+  .timer__p {
+    font-weight: 300 !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+    letter-spacing: -0.2px !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 650px) {
+  .app__timer p:first-child {
+    padding-right: 1px;
+  }
+
+  .app__timer p:last-child {
+    padding-left: 2px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .timer__p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+  }
+}

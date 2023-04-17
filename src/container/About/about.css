@@ -1,0 +1,265 @@
+.app__about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__about-content_images {
+  position: relative;
+  width: 50%;
+}
+
+.about__image1 img {
+  width: 438px;
+  height: 438px;
+}
+
+.about__image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.about__image2 img {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+}
+
+.app__about-content_texts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+}
+
+/* boxes */
+
+.box {
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+
+  padding: 2rem;
+}
+.app__scholarship {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  column-gap: 40px;
+  margin-block: 4rem;
+}
+
+.app__scholarship-value {
+  display: grid;
+  grid-template-rows: 1fr 0.2fr 0.5fr;
+}
+
+.scholarship__value-amount h2 {
+  font-family: var(--font-base);
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.436364px;
+  color: #535353;
+  margin-top: 33px;
+}
+
+.small__line {
+  border: 1px solid #dadada;
+  height: 1px;
+  width: 27.81617546081543px;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.line {
+  width: 265.75px;
+  height: 1px;
+
+  border: 1px solid #dadada;
+}
+
+.app__scholarship-breakdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 23px;
+  row-gap: 30px;
+}
+
+.app__commitments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 36px;
+}
+
+.app__left-container {
+  display: grid;
+  grid-template-rows: 1.5fr 0.5fr 1fr;
+}
+
+.app__header-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scsm-line {
+  width: 265.75px;
+}
+
+/* media queries */
+@media screen and (max-width: 1150px) {
+  .app__about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .app__about-content_images {
+    width: 100%;
+    margin-bottom: 40px;
+    width: 334px;
+    height: 334px;
+  }
+
+  .app__about-content_texts {
+    width: 80%;
+  }
+
+  .about__image2 img {
+    width: 252px;
+    height: 252px;
+  }
+
+  .about__image1 img {
+    width: 334px;
+    height: 334px;
+  }
+  .about__image1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .about__image2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .app__scholarship {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr;
+    column-gap: 20px;
+    margin-top: 7rem;
+  }
+
+  .app__scholarship-value .line {
+    display: none;
+  }
+
+  .app__scholarship-value {
+    flex-direction: row;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    grid-template-columns: 1fr;
+
+    background: #ffffff;
+    border: 0px;
+    border-radius: 4px;
+
+    padding: 0;
+  }
+
+  .app__scholarship-value h2 {
+    margin-top: 8px;
+    margin-bottom: 28px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.2181818187236786px;
+    text-align: left;
+  }
+
+  .app__commitments {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 32px;
+    margin-top: 64px;
+  }
+  .app__left-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.2fr 0.2fr 0.4fr;
+  }
+
+  .scsm-line {
+    width: 30%;
+    height: 2px;
+    border: 1px solid #dadada;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app__about-content_texts {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__about-content_texts {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__about-content_texts {
+    width: 80%;
+  }
+  .app__about-content_texts {
+    z-index: 1;
+  }
+  .box-bg2 {
+    position: absolute;
+    width: 334px;
+    height: 589px;
+    top: 157px;
+
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .box-bg1 {
+    position: absolute;
+    width: 100vw;
+    height: 451px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -1.7%);
+
+    background: var(--primary-color);
+  }
+
+  .scsm-line {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .box-bg2 {
+    height: 650px;
+  }
+  .box-bg1 {
+    height: 501px;
+  }
+  /* Pattern */
+}

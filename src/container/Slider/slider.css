@@ -1,0 +1,133 @@
+.cards {
+  position: relative;
+}
+
+.app__testimonials {
+  position: relative;
+  z-index: 7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 40px;
+  overflow: hidden;
+  grid-column-start: 2;
+  padding: 270px;
+
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.app__gallery-images_arrow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 50px;
+  position: absolute;
+  bottom: 250px;
+}
+.gallery__arrow-icon {
+  position: relative;
+  z-index: 8;
+  width: 48px;
+  height: 47.17px;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery__arrow-icon img {
+  width: 8px;
+  height: 16px;
+}
+
+.gallery__arrow-iconR {
+  transform: rotate(180deg);
+}
+
+.Bg-image {
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  background: #fff !important;
+}
+
+.Bg-image img {
+  width: 1120px;
+  height: 394.07px;
+  border: 1px solid #e6e6e6;
+}
+.bg-box {
+  diaplay: none;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__testimonials {
+    column-gap: 10px;
+    overflow: hidden;
+    grid-column-start: 2;
+    padding: 18px;
+
+    padding-top: 0px;
+    padding-bottom: 50px;
+
+    margin-top: 60px;
+  }
+  .app__gallery-images_arrow {
+    bottom: -40px;
+    justify-content: flex-end;
+  }
+
+  .gallery__arrow-icon {
+    margin-left: 20px;
+  }
+
+  .bg-box {
+    /* z-index: 1; */
+    position: absolute;
+    width: 100%;
+    height: 257px;
+    left: 0px;
+    top: -120px;
+    /* margin-top: 30px; */
+
+    background: #685dc5;
+  }
+  .Bg-image img {
+    height: 257px;
+    width: 140vw;
+    left: 0px;
+    top: 3439px;
+    border-radius: 0px;
+
+    mix-blend-mode: color-burn;
+    border: 1px solid #e6e6e6;
+  }
+
+  .Bg-image {
+    top: 22.8%;
+    left: 0%;
+    background: var(--primary-color) !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 650px) {
+  .app__gallery-images_arrow {
+    bottom: -30px;
+  }
+  .app__testimonials {
+    column-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__testimonials {
+    column-gap: 40px;
+  }
+}
